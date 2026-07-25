@@ -28,3 +28,44 @@ If you find yourself unable to import your repository due to the presence of fil
    * System Import Sets
 
 // sync @ 2026-06-19T00:00:05.244435
+
+---
+
+## Contributing (TVA Temporal Edition)
+
+Welcome, Variant Developer! By opening this repository, you have entered a **Sacred Timeline** of ServiceNow training materials. The Time Variance Authority (TVA) monitors all commits for nexus events. To avoid being pruned, please follow these **Temporal Guidelines**:
+
+### 🔍 1. Submit Your Nexus Event (Pull Request)
+- All contributions must be filed as a **Pull Request (PR)** – the TVA’s preferred method of timeline alteration.
+- Before creating a PR, **rebase your branch** to the latest `main` (the Prime Timeline). Divergent branches are considered **dangerous variants**.
+- Provide a clear description of what your change does and why it does not break the Sacred Timeline.
+
+### 🕰️ 2. Temporal Quality Assurance
+- Every PR must be reviewed by at least one **Minuteman** (code reviewer). No unauthorised timeline hopping.
+- Ensure your code passes all existing tests – the TVA’s **Temporal Loom** must not glitch.
+- If you introduce a new dependency (e.g., a new table, script include, or update set), you must **reset the temporal coordinates** by updating the dependencies list in the README.
+
+### 🧠 3. Keeping the Timeline Clean
+- **No merge commits** from mixed timelines. Squash your commits into a single, clean timeline entry.
+- Do **not** commit generated files or checksums that were created outside an instance of ServiceNow. The TVA’s **Reset Charge** (see recovery steps above) will be used if you do.
+- Avoid adding large binary files (e.g., screenshots of alternate realities). Prefer Markdown or text-based documentation.
+
+### 🤖 4. The Temporal Accord
+By contributing, you agree that the TVA (maintainers of this repo) may **prune** any commit that:
+- Introduces security vulnerabilities (Nexus Events).
+- Contains personally identifiable information (PII) from a timeline that should not exist.
+- Breaks the build – this is a **catastrophic temporal anomaly**.
+
+### ⏳ 5. First-Time Variants
+- If this is your first contribution, the TVA will issue you a **Temporal ID** (a contributor badge) after your first approved PR.
+- Check the `#temporal-training` channel for guidance. We have **Time-Twisters** (mentors) who can help.
+
+### 🚀 6. Time-Sensitive Resources
+- For help with ServiceNow specifics, consult the **TVA’s Handbook** (the official ServiceNow documentation).
+- Report timeline-breaking bugs by creating an **Issue** – label it `[Nexus Event]`.
+
+### ⚖️ Final Warning
+**Variant contributions that do not follow these guidelines will be pruned without warning.** The Sacred Timeline must remain intact. Happy coding, Temporal Engineer!
+
+*“For all time. Always.”*  
+— TVA
