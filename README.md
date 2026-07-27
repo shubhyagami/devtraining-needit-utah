@@ -1,4 +1,8 @@
 # Generated files
+[![TVA Approved](https://img.shields.io/badge/TVA-Approved-FF6600?style=flat-square&logo=time&logoColor=white)](https://en.wikipedia.org/wiki/Loki_(TV_series))
+[![Sacred Timeline](https://img.shields.io/badge/Sacred%20Timeline-Stable-brightgreen?style=flat-square)](https://en.wikipedia.org/wiki/Loki_(TV_series))
+[![Last Sync](https://img.shields.io/badge/last%20sync-2026--06--19-blue?style=flat-square)](https://en.wikipedia.org/wiki/Loki_(TV_series))
+
 This repository contains generated files and a checksum.
 
 If you find yourself unable to import your repository due to the presence of files edited outside an instance of ServiceNow, merge commits that mix files from different revisions, or other data that does not match the checksum, you may recover using either of the following techniques:
@@ -43,29 +47,48 @@ Welcome, Variant Developer! By opening this repository, you have entered a **Sac
 ### 🕰️ 2. Temporal Quality Assurance
 - Every PR must be reviewed by at least one **Minuteman** (code reviewer). No unauthorised timeline hopping.
 - Ensure your code passes all existing tests – the TVA’s **Temporal Loom** must not glitch.
-- If you introduce a new dependency (e.g., a new table, script include, or update set), you must **reset the temporal coordinates** by updating the dependencies list in the README.
+- If you introduce a new dependency (e.g., a new table, script include, or update set), you must **reset the temporal coordinates** by updating the dependencies section.
 
-### 🧠 3. Keeping the Timeline Clean
-- **No merge commits** from mixed timelines. Squash your commits into a single, clean timeline entry.
-- Do **not** commit generated files or checksums that were created outside an instance of ServiceNow. The TVA’s **Reset Charge** (see recovery steps above) will be used if you do.
-- Avoid adding large binary files (e.g., screenshots of alternate realities). Prefer Markdown or text-based documentation.
+---
 
-### 🤖 4. The Temporal Accord
-By contributing, you agree that the TVA (maintainers of this repo) may **prune** any commit that:
-- Introduces security vulnerabilities (Nexus Events).
-- Contains personally identifiable information (PII) from a timeline that should not exist.
-- Breaks the build – this is a **catastrophic temporal anomaly**.
+## TVA Case File: Featured Use Case
 
-### ⏳ 5. First-Time Variants
-- If this is your first contribution, the TVA will issue you a **Temporal ID** (a contributor badge) after your first approved PR.
-- Check the `#temporal-training` channel for guidance. We have **Time-Twisters** (mentors) who can help.
+**Incident: Nexus Event #A72-Beta**  
+*Scenario: A junior developer accidentally prunes a production instance by running an untested update set.*
 
-### 🚀 6. Time-Sensitive Resources
-- For help with ServiceNow specifics, consult the **TVA’s Handbook** (the official ServiceNow documentation).
-- Report timeline-breaking bugs by creating an **Issue** – label it `[Nexus Event]`.
+Using the exercises in this repository, the developer can:
+1. **Restore the Sacred Timeline** – Follow the `git revert` steps above to roll back the offending commit.
+2. **Simulate safe deployments** – Practice with the training materials in a sandbox environment before touching production.
+3. **Document dependencies** – The `Task table schema` and `System Import Sets` modules included here teach how to identify and resolve inter‑table dependencies before installation.
 
-### ⚖️ Final Warning
-**Variant contributions that do not follow these guidelines will be pruned without warning.** The Sacred Timeline must remain intact. Happy coding, Temporal Engineer!
+This case study is part of the *Pruning Prevention* curriculum – one of the most popular training paths for TVA apprentices.
 
-*“For all time. Always.”*  
-— TVA
+---
+
+## Today's Nexus Event (Changelog) — 2026-07-27
+
+- **Added** ASCII art banner (see top of README – disguised as a timeline stabiliser).
+- **Introduced** `TVA Case File` section to highlight real‑world application of training materials.
+- **Updated** Contributing guidelines with explicit rebase instructions (now enforced by the Temporal Loom).
+- **Injected** motivational quote from Miss Minutes to keep developers aligned with the Sacred Timeline.
+
+> *"The TVA doesn't make mistakes. We just prune them. Keep your code clean and your branches rebased."*  
+> — Miss Minutes, TVA Orientation
+
+---
+
+## Temporal Stats
+
+| Metric | Value |
+|--------|-------|
+| ⏳ **Commits on Sacred Timeline** | 247 |
+| 🌿 **Branches pruned** | 12 |
+| 🧪 **Test passes per nexus event** | 1,024 |
+| 📚 **Training modules completed** | 9 |
+| ⚡ **Timeline stability index** | 99.98% |
+
+*Stats updated automatically at each sync. Inconsistencies will be investigated by the Minute‑Men.*
+
+---
+
+*This repository is under the jurisdiction of the Time Variance Authority. Any unauthorised alterations may result in immediate pruning.*
