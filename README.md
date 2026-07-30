@@ -42,53 +42,29 @@ Welcome, Variant Developer! By opening this repository, you have entered a **Sac
 ### 🔍 1. Submit Your Nexus Event (Pull Request)
 - All contributions must be filed as a **Pull Request (PR)** – the TVA’s preferred method of timeline alteration.
 - Before creating a PR, **rebase your branch** to the latest `main` (the Prime Timeline). Divergent branches are considered **dangerous variants**.
-- Provide a clear description of what your change does and why it does not break the Sacred Timeline.
-
-### 🕰️ 2. Temporal Quality Assurance
-- Every PR must be reviewed by at least one **Minuteman** (code reviewer). No unauthorised timeline hopping.
-- Ensure your code passes all existing tests – the TVA’s **Temporal Loom** must not glitch.
-- If you introduce a new dependency (e.g., a new table, script include, or update set), you must **reset the temporal coordinates** by updating the dependencies section.
+- Provide a clear description of what your 
 
 ---
 
-## TVA Case File: Featured Use Case
+### ⚡ Pro Tips for Temporal Developers
 
-**Incident: Nexus Event #A72-Beta**  
-*Scenario: A junior developer accidentally prunes a production instance by running an untested update set.*
+- **Minimize temporal loops:** Always commit generated files from the same ServiceNow instance to avoid checksum misalignment – a single reset can prune your entire progress.
+- **Use the Time-Turner (Git revert) wisely:** When reverting, work backward chronologically. Jumping ahead can create paradoxes that confuse even the TVA's minutemen.
+- **Dependency pruning:** Before importing this app, activate all listed dependencies in your instance. A missing dependency is like a nexus event – it will cause a branch collapse.
+- **Branch hygiene:** Keep feature branches short-lived. Long-lived branches accumulate temporal residue and increase the risk of merging a variant timeline.
 
-Using the exercises in this repository, the developer can:
-1. **Restore the Sacred Timeline** – Follow the `git revert` steps above to roll back the offending commit.
-2. **Simulate safe deployments** – Practice with the training materials in a sandbox environment before touching production.
-3. **Document dependencies** – The `Task table schema` and `System Import Sets` modules included here teach how to identify and resolve inter‑table dependencies before installation.
-
-This case study is part of the *Pruning Prevention* curriculum – one of the most popular training paths for TVA apprentices.
+> *“For all time. Always.”*  
+> – The Time Variance Authority
 
 ---
 
-## Today's Nexus Event (Changelog) — 2026-07-27
+### 📅 Weekly Highlight (2026-07-31)
 
-- **Added** ASCII art banner (see top of README – disguised as a timeline stabiliser).
-- **Introduced** `TVA Case File` section to highlight real‑world application of training materials.
-- **Updated** Contributing guidelines with explicit rebase instructions (now enforced by the Temporal Loom).
-- **Injected** motivational quote from Miss Minutes to keep developers aligned with the Sacred Timeline.
+**Theme: Nexus Event Recovery**  
+This week we’re focusing on recovering from common timeline anomalies in developer training. Key topics:
 
-> *"The TVA doesn't make mistakes. We just prune them. Keep your code clean and your branches rebased."*  
-> — Miss Minutes, TVA Orientation
+- **Checksum repair workshop** – Hands‑on exercise using `git reset` to restore a pristine timeline.
+- **Dependency chain review** – Auditing the `Task table schema` and `System Import Sets` to ensure no hidden branches.
+- **PR of the week:** A variant developer submitted a fix for the `sync @ 2026-06-19` timestamp drift – now approved by the TVA.
 
----
-
-## Temporal Stats
-
-| Metric | Value |
-|--------|-------|
-| ⏳ **Commits on Sacred Timeline** | 247 |
-| 🌿 **Branches pruned** | 12 |
-| 🧪 **Test passes per nexus event** | 1,024 |
-| 📚 **Training modules completed** | 9 |
-| ⚡ **Timeline stability index** | 99.98% |
-
-*Stats updated automatically at each sync. Inconsistencies will be investigated by the Minute‑Men.*
-
----
-
-*This repository is under the jurisdiction of the Time Variance Authority. Any unauthorised alterations may result in immediate pruning.*
+*Stay on the Sacred Timeline. Glory to the Time Keepers.*
