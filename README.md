@@ -2,6 +2,31 @@
 [![TVA Approved](https://img.shields.io/badge/TVA-Approved-FF6600?style=flat-square&logo=time&logoColor=white)](https://en.wikipedia.org/wiki/Loki_(TV_series))
 [![Sacred Timeline](https://img.shields.io/badge/Sacred%20Timeline-Stable-brightgreen?style=flat-square)](https://en.wikipedia.org/wiki/Loki_(TV_series))
 [![Last Sync](https://img.shields.io/badge/last%20sync-2026--06--19-blue?style=flat-square)](https://en.wikipedia.org/wiki/Loki_(TV_series))
+[![Build Status](https://img.shields.io/badge/TVA%20Build-Pristine-success?style=flat-square)](https://en.wikipedia.org/wiki/Loki_(TV_series))
+[![Variants Caught](https://img.shields.io/badge/Variants-42%20Caught%20Today-red?style=flat-square)](https://en.wikipedia.org/wiki/Loki_(TV_series))
+[![TemPad Version](https://img.shields.io/badge/TemPad-v2.6--2024-informational?style=flat-square)](https://en.wikipedia.org/wiki/Loki_(TV_series))
+[![Timekeeper Sealed](https://img.shields.io/badge/Timekeeper-Sealed-purple?style=flat-square)](https://en.wikipedia.org/wiki/Loki_(TV_series))
+
+---
+
+## 🌀 TVA Temporal Engineering Division
+
+```
+ _________________________________________________________________
+/  _      _______     _______ ______  _______   _______ _     _  \
+| | |    |____   |   |____   |  ____||  ___  | |  _____| |   | | |
+| | |         |  |        |  | |__   | |   | | | |     | |   | | |
+| | |_____   |   |      __|  |  __|  | |   | | | |     | |   | | |
+| |____  |  |    |    |   |  | |     | |   | | | |____ | |___| | |
+|      | |  |    |    |   |  | |     | |   | | |_____|| |_____| | |
+|      | |  |    |    |   |  | |     | |   | |             | |     |
+|______|_| _|_   _|    |___|  |_|     |_|___|_|             |_|_   |
+\__________|__|________________________________________________|__/
+        Temporal Variance Authority — Developer Training Division
+                "Keeping Your Branches in the Sacred Timeline"
+```
+
+---
 
 This repository contains generated files and a checksum.
 
@@ -25,11 +50,134 @@ If you find yourself unable to import your repository due to the presence of fil
   1. Dependencies will not show up in the list of changes but will be exported/imported
   2. It is your responsibility to resolve the dependencies before installing an application. ServiceNow source control will not manage these for 
 
+## 📜 Temporal Changelog
+
+### 🕥 2026-08-02 — Sacred Timeline Sync
+
+| Field        | Value                          |
+|--------------|--------------------------------|
+| Case Number  | TVA-DEV-082026-SACRED-02       |
+| Timeline     | Earth-616                      |
+| Branch       | main                           |
+| Status       | ✅ Stable & Sealed             |
+| Author       | Temporal Engineer — shubhyagami |
+| Reviewers    | Ravonna Renslayer, Miss Minutes|
+| Files Altered| Bypassed PRUNING by an analyst of the Time Variance Authority |
+| Outcome      | Repository synced with TVA main hub. No variants detected. TemPad firmware validated. |
+
+**Entry Summary:**
+> Routine validation sweep completed. Repository integrity confirmed against the Sacred Timeline branch. All commits verified as ServiceNow-generated. Branch `main` remains sealed and approved for temporal transit.
+
+---
+
+## ⚡ Featured Use Case: "Onboarding New Variants"
+
+When a new developer—an unwitting Variant—joins the Utah ServiceNow training program, this repository serves as their **TemPad initialization point**. 
+
+**Scenario:** A Variant named "Agent Doe" accidentally edits a ServiceNow-generated file outside the instance, triggering a Nexus event.
+
+**Resolution:**
+1. Determine if the Variant can self-correct using the recovery techniques above.
+2. If the checksum validate fails, terminate the rogue commit by running `git reset --hard <last-known-good-SHA1>` and push with a prayer to the Time Keepers.
+3. Welcome the Variant back to the Sacred Timeline and log the event in the Temporal Changelog.
+
+Outcome: Bootstrap code is preserved, checksum integrity is restored, and Agent Doe lives to write JavaScript another day.
+
+---
+
+## 🌟 Pro Tips from the TVA
+
+Here are some field-tested temporal engineering tips, straight from the desks of our finest analysts:
+
+- **🌀 Always verify your checksum** — A clean checksum is a clean timeline. Never overwrite without a backup snapshot.
+- **🛑 Avoid "Rebase Nexus Events"** — Rebasing across multiple timelines creates unstable branches. Keep it linear, keep it sacred.
+- **🧹 Prune with precision** — Use `git revert` when possible. `git reset --hard` is a unilateral temporal wipe—it works, but your local Variants may vanish.
+- **📋 Name branches with purpose** — Instead of `fix-1`, use `TVA-082026-sacred-fix-1`. Clear naming avoids confusion during temporal audits.
+- **🕐 Use `.gitignore` wisely** — Remove generated artifacts from version history; the TVA has no room for artifacts that fall outside the checksum.
+
+---
+
+## 💬 Temporal Inspiration
+
+> *"For all time. Always."*  
+> — The Time Keepers... and Miss Minutes
+
+> *"The timeline is not a straight line. It's a circle. And we are all walking around it together — attempting not to disturb the checksum."*  
+> — Temporal Engineer shubhyagami
+
+---
+
+## 🚀 Quick Start Guide for Initiating Variants
+
+If you're a newly inducted analyst preparing to work within the Sacred Timeline, follow these steps:
+
+1. **Clone the Sacred Timeline**
+   ```bash
+   git clone https://github.com/shubhyagami/devtraining-needit-utah.git
+   cd devtraining-needit-utah
+   ```
+
+2. **Verify Timeline Integrity**
+   ```bash
+   git log --oneline--decorate
+   git status
+   ```
+
+3. **Initialize the TemPad** — Ensure your ServiceNow instance is connected to the repository by running the standard Source Control Integration via ServiceNow Studio.
+
+4. **Begin Your First Assignment** — Navigate to the NeedIt application module to create your first record producer.
+
+5. **Submit a Temporal Variance Report** — Open an issue on this repository describing what you intend to change before creating a feature branch.
+
+6. **Create Your Feature Branch**
+   ```bash
+   git checkout -b TVA-082026-sacred-initial-training
+   ```
+
+7. **Commit With Reverence**
+   ```bash
+   git add -A
+   git commit -m "TVA-082026: Initial training updates (TVA Approved)"
+   git push origin TVA-082026-sacred-initial-training
+   ```
+
+8. **Open a Pull Request** — Await review from the TVA Council (a.k.a. your repo maintainers).
+
+---
+
+## 📊 Repository Temporal Metrics
+
+| Metric                         | Value         |
+|--------------------------------|---------------|
+| 🌀 Total Nexus Events Prevented | 12            |
+| 📅 Last Temporal Review         | 2026-06-19    |
+| 🛡️ Variants Caught This Month  | 7             |
+| ✅ Commits Approved by TVA      | 89            |
+| ⚠️ Reverted Commits             | 4             |
+| 🌿 Active Branches              | 3             |
+| 📁 Sacred Artifacts (files)     | 47            |
+
+---
+
+## 🌐 Weekly Highlight — "The Magic of Checksums"
+
+This week, our spotlight shines on **checksum integrity validation**. A Variant from Utah created a rogue JavaScript include outside of ServiceNow. Without noticing, they pushed the changes, triggering a checksum mismatch on import. 
+
+**The TVA Response:**
+- The Variance was detected almost instantly by the checksum verification system.
+- The Variant used the "Hard Reset" recovery technique in section 5.2.
+- The rogue file was permanently pruned from the timeline.
+- The Variant was welcomed back without judgment—or summary deletion.
+
+**Lesson:** The checksum is your friend. Respect it. Validate before you commit.
+
+---
+
 ## Contributing
 
 Greetings, Variant! You have stumbled upon a nexus event of developer training. The Time Variance Authority welcomes all loyal agents of the Sacred Timeline to help maintain the integrity of this repository. Before you submit a pull request, please review the following Temporal Directives.
 
-### 🌐 The Sacred Workflow
+### The Sacred Workflow
 
 1. **File a Temporal Variance Report** – Open an issue describing the anomaly you wish to correct. All contributions must be logged before any branch is created.
 
@@ -37,28 +185,17 @@ Greetings, Variant! You have stumbled upon a nexus event of developer training. 
 
 3. **Stay on the Sacred Timeline** – All changes must be generated by a ServiceNow instance or approved by a TVA Judge. No manual edits, no timeline-traveling merges, no unauthorized Nexus events.
 
-4. **Run the Checksum Reset** – After making your changes, run `git add -A` and commit with a message that includes the TVA case number (e.g., `TVA-2026-42: Updated training module for Utahn temporal anomalies`).
+4. **Run the Checksum Reset** – After making your changes, run `git add -A` and commit with a message that includes the TVA case number (e.g., 2026-08-02-TVA-DEV-082026-SACRED-02).
 
-5. **Submit to the Minutemen** – Create a pull request against the `main` timeline. A Minuteman (or a friendly Judge) will review your changes. Be prepared to explain how your contribution preserves the Sacred Timeline.
+5. **Submit to the Sacred Review Council** – Open a Pull Request. Include your branch, your TemPad coordinates, and the TVA case number in the description. All Pull Requests must be closed by a TVA Judge before merging.
 
-### ⚖️ Code of Conduct (The TVA Oath)
-
-- **Thou Shalt Not Prune Without Reason** – Do not delete code unless you have a clear, documented justification.
-- **Thou Shalt Not Create Nexus Events** – Avoid breaking changes that could ripple into alternate timelines. Write tests and verify against the checksum.
-- **Thou Shalt Not Hoard Knowledge** – Document your changes. If a developer from 2023 looks at your commit, they should understand what happened.
-- **Thou Shalt Not Use Aliases** – Always use your true TVA identification (GitHub username) when contributing. Loki variants will be reset.
-
-### 🔄 Variant Reset Procedure
-
-If a pull request introduces chaos (unexpected merge conflicts, checksum mismatches, or files from a different branch), a Minuteman may perform a **Variant Reset**:
-- The PR will be closed with a notice.
-- The contributor will be invited to a temporal hearing (code review) to realign their changes with the Sacred Timeline.
-- Repeat offenders may be pruned (banned from contributing).
-
-### 📟 Questions?
-
-Contact the TVA Temporal Engineer assigned to this project via the [Issues](https://github.com/your-org/devtraining-needit-utah/issues) tab. Remember: *For all time. Always.*
+6. **Celebrate Your Contribution to The Sacred Timeline** – Once merged, you have successfully prevented a Nexus Event and preserved timeline integrity.
 
 ---
 
-*This repository is protected by the Time Variance Authority. Unauthorized edits, timeline hopping, or nexus events will be prosecuted to the fullest extent of the Sacred Timeline.*
+### 📜 Final Words from the TVA Temporal Engineering Division
+
+*"This repository is generated by authorized TVA personnel and automated through ServiceNow. Manual code edits are prohibited and may result in immediate pruning by the Time Keepers. If you're a Variant, remember: the timeline is a loop; what you push today, you may pull tomorrow."*
+
+— Maintained by Temporal Engineer **shubhyagami**  
+— For all time. Always.
